@@ -45,7 +45,7 @@ huggingface에 로그인 후 access token 준비
 huggingface-cli login
 ```
   
-## Generate Pokemon example with streamlit
+## Generate Sumook Painting example with streamlit
 ```shell
 cd app
 streamlit run Home.py --server.port={port}
