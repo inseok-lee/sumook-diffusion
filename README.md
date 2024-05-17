@@ -1,7 +1,8 @@
 # Diffusion text-to-image  
 - [한국 전통 수묵화 화풍별 제작 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71380)으로 학습한 Diffusion text-to-image 모델
+- [doubleseat/ko-sd-sumook-model-v1](https://huggingface.co/doubleseat/ko-sd-sumook-model-v1), 한국어로 학습한 Korean Stable Diffusion Sumook Painting Model V1
 - [Huggingface Diffusers Library](https://github.com/huggingface/diffusers)
-- Inference with streamlit
+- Generate with streamlit
   
 ## Default working directory
 contrainer 생성시 기본 WORKDIR는 /root 이다. 프로젝트는 이 root 폴더 내에서 진행된다.  
