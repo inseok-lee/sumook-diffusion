@@ -20,7 +20,7 @@ apt install -y git
   
 3. Git clone
 ```shell
-git clone http://www.ifl.co.kr:8880/aiplatform/sumook-diffusion.git
+git clone https://github.com/inseok-lee/sumook-diffusion.git
 cd sumook-diffusion
 ```
   
@@ -34,10 +34,9 @@ conda activate diffusion
   
 5. 파이썬 패키지 설치
 ```shell
-pip install torch==2.2.2 torchvision==0.17.2 torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install --upgrade diffusers[torch]
 pip install -r requirements.txt
-pip install .
 ```
   
 6. huggingface login
